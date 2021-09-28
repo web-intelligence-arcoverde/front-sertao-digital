@@ -1,4 +1,4 @@
-import { TextExample } from 'src/components/TextExample/TextExample'
+import { TextExample } from 'src/components/atoms/TextExample/TextExample'
 
 import { Container } from './styles'
 
