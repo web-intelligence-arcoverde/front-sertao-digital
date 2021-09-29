@@ -1,7 +1,7 @@
 {
   "name": "template-react-typescript",
   "version": "0.0.1",
-  "homepage": "https://web-intelligence-arcoverde.github.io/front-sertao-digital/",
+  "homepage": "front-sertao-digital/",
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {

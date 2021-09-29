@@ -1,3 +1,5 @@
+import Cyberpunk from 'assets/images/cyberpunk.png'
+
 export const Home = () => {
   return (
     <div
@@ -6,9 +8,8 @@ export const Home = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
+        background: '#FCD594',
       }}
-    >
-      <h1>Sertão Digital</h1>
-    </div>
+    />
   )
 }
