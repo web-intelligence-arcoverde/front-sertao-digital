@@ -1,7 +1,7 @@
 {
   "name": "template-react-typescript",
   "version": "0.0.1",
-  "homepage": "front-sertao-digital/",
+  "homepage": "./",
   "main": "src/index.tsx",
   "license": "MIT",
   "scripts": {
