@@ -1,0 +1,1 @@
+(self.webpackChunktemplate_react_typescript=self.webpackChunktemplate_react_typescript||[]).push([[12],{12:(e,t,c)=>{"use strict";c.r(t),c.d(t,{Home:()=>n});var n=function(){return React.createElement("div",{style:{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center",background:"#FCD594"}})}}}]);
