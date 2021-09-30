@@ -9,7 +9,8 @@ export default createGlobalStyle`
   }
   
   body > #root > div {
-    height: 100vh;
+    width: 100%;
+    height: 100vh !important;
   }
   
   h1,h2,h3,h4,h5,h6{

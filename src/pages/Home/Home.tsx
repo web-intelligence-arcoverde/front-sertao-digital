@@ -1,4 +1,4 @@
-import Cyberpunk from 'assets/images/cyberpunk.png'
+import Cyberpunk from 'assets/images/background.png'
 
 export const Home = () => {
   return (
@@ -9,7 +9,10 @@ export const Home = () => {
         justifyContent: 'center',
         alignItems: 'center',
         background: '#FCD594',
+        width: '100%',
       }}
-    />
+    >
+      <img src={Cyberpunk} alt="logo" />
+    </div>
   )
 }
