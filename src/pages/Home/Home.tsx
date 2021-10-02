@@ -1,23 +1,32 @@
-import Cyberpunk from 'assets/images/background.png'
+import { NavBarMenu } from 'src/components/organisms/navbar-menu'
 
-import Logo03 from 'assets/images/logo-03.jpeg'
+import styled from 'styled-components'
+
+export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (max-width: 800px) {
+  }
+`
+
+export const ContainerSize = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+  @media (max-width: 800px) {
+    width: 100%;
+  }
+`
 
 export const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        width: '100%',
-      }}
-    >
-      <div style={{ width: '50%', height: '40%' }}>
-        <img src={Logo03} alt="logo" width="100%" height="100%" />
-      </div>
-
-      <img src={Cyberpunk} alt="logo" />
-    </div>
+    <Container>
+      <ContainerSize>
+        <NavBarMenu />
+      </ContainerSize>
+    </Container>
   )
 }
