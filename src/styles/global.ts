@@ -16,6 +16,16 @@ export default createGlobalStyle`
   h1,h2,h3,h4,h5,h6{
 	  display:inline;
   }
+  
+  a {
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+ul {
+    list-style-type: none;
+}
 
   body {
     -webkit-font-smoothing: antialiased;
