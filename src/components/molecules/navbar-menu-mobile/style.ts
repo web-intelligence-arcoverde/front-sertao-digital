@@ -6,4 +6,8 @@ export const IconMenuMobile = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
+
+  @media (min-width: 800px) {
+    display: none;
+  }
 `
