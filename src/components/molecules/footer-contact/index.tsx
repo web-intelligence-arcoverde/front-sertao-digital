@@ -1,14 +1,14 @@
 import React from 'react';
-import * as S from './style'
-// import { Container } from './styles';
+import {Container,Img}from './style'
+
 
 const Contact= ({title,img}:any) => {
     return (
-        <S.Container>
-            <S.Img src={img}/>
+        <Container>
+            <Img src={img}/>
             <p>{title}</p>
             
-        </S.Container>
+        </Container>
     )
 }
 

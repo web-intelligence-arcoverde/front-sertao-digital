@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from './styled'
+import {Main,Icons,ContainerRight,ContainerLeft}from './styled'
 
 import Contact from 'src/components/molecules/footer-contact';
 import Phone from 'assets/icons/phone.svg'
@@ -13,15 +13,15 @@ import Map from '../../atoms/Map'
 
 export const Footer = () => {
   return (
-    <S.Container>
-      <S.Left>
+    <Main>
+      <ContainerLeft>
         <p>Price Item ONe </p>
         <p>Price Item ONe </p>
         <p>Price Item ONe </p>
         <p>Price Item ONe </p>
         <p>Price Item ONe </p>
         <p>Price Item ONe </p>
-      </S.Left>
+      </ContainerLeft>
 
       <div>
         <Map/>
@@ -42,14 +42,14 @@ export const Footer = () => {
           img={Email}
         />
 
-        <S.CardIcons >
-          <S.Icons src={Facebook} />
-          <S.Icons src={Instagram} />
-          <S.Icons src={Linkedin} />
+        <ContainerRight >
+          <Icons src={Facebook} />
+          <Icons src={Instagram} />
+          <Icons src={Linkedin} />
 
-        </S.CardIcons>
+        </ContainerRight>
       </div>
-    </S.Container>
+    </Main>
   );
 }
 
