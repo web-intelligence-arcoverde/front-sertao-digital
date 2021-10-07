@@ -5,16 +5,14 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
   width: 100%;
-
-  @media (max-width: 800px) {
-  }
 `
 
 export const ContainerSize = styled.div`
   display: flex;
   flex-direction: column;
-  width: 70%;
+  width: 90%;
 
   @media (max-width: 800px) {
     width: 100%;
