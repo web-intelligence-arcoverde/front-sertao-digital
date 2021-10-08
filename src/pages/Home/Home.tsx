@@ -1,5 +1,6 @@
 import { Footer } from 'src/components/organisms/footer'
 import { NavBarMenu } from 'src/components/organisms/navbar-menu'
+import { Header } from 'src/components/organisms/header'
 
 import styled from 'styled-components'
 
@@ -27,7 +28,8 @@ export const Home = () => {
       <ContainerSize>
         <NavBarMenu />
       </ContainerSize>
-      <Footer/>
+      <Header />
+      <Footer />
     </Container>
   )
 }
