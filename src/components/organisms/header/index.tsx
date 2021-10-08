@@ -47,8 +47,9 @@ export const StyledContainer = styled(Container)`
 `
 export const MainContainer = styled(Container)`
   background-image: url(${Background});
-  background-size: auto;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @media (max-width: 414px) {
     width: 100%;
