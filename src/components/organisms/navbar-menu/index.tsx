@@ -5,16 +5,8 @@ import { NavbarMenuMobile } from 'src/components/molecules/navbar-menu-mobile'
 import { ModalContainerMenuMobile } from 'src/components/molecules/modal-container-menu-mobile'
 import { LogoContainer } from 'src/components/molecules/container-logo'
 
-import {
-  NavBarMenuContainer,
-  ContainerListMenu,
-  Button,
-  ContainerBut,
-} from './style'
+import { NavBarMenuContainer, ContainerListMenu } from './style'
 
-const ContainerButton = ({ text, children }: any) => {
-  return <Button>{children}</Button>
-}
 export const NavBarMenu = () => {
   const [visibleMenuModalMobile, setVisibleMenuModalMobile] =
     useState<boolean>(false)
@@ -27,15 +19,10 @@ export const NavBarMenu = () => {
     <>
       <NavBarMenuContainer>
         <LogoContainer />
-        <div style={{ display: 'flex' }}>
-          <ContainerListMenu>
-            <NavbarMenuMobile handleMenu={handleMenu} />
-            <NavbarMenuDesktop />
-          </ContainerListMenu>
-          <ContainerBut>
-            <ContainerButton> Entrar </ContainerButton>
-          </ContainerBut>
-        </div>
+        <ContainerListMenu>
+          <NavbarMenuMobile handleMenu={handleMenu} />
+          <NavbarMenuDesktop />
+        </ContainerListMenu>
       </NavBarMenuContainer>
       {visibleMenuModalMobile && <ModalContainerMenuMobile />}
     </>

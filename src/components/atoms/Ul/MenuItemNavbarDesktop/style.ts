@@ -10,10 +10,10 @@ export const ItemMenuLink = styled.a`
   color: ${COLORS.primaryGray};
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 100%;
+  font-weight: 300;
 
   &:hover {
     border-bottom: 1px solid ${COLORS.primaryGray};
+    opacity: 0.7;
   }
 `

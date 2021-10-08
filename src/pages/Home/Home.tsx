@@ -7,6 +7,7 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  background-color: #f8fafa;
 `
 
 export const ContainerSize = styled.div`

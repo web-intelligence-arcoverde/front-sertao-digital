@@ -27,29 +27,3 @@ export const ContainerListMenu = styled.div`
     }
   }
 `
-
-export const ContainerBut = styled.div`
-  width: 120px;
-  display: flex;
-  align-items: center;
-
-  margin-left: 20px;
-
-  @media (max-width: 800px) {
-    display: none;
-  }
-`
-
-export const Button = styled.button`
-  width: 100%;
-  height: 44px;
-
-  background-color: ${COLORS.primaryBlue};
-  color: ${COLORS.primaryWhite};
-
-  font-family: Roboto, sans-serif;
-
-  border: none;
-
-  border-radius: 8px;
-`

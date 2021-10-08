@@ -9,6 +9,7 @@ export const ModalContainerMenuMobile = () => {
         <ItemMenuMobile location="#" label="Teste" />
         <ItemMenuMobile location="#" label="Teste" />
         <ItemMenuMobile location="#" label="Teste" />
+        <ItemMenuMobile location="#" label="Entrar" />
       </MenuContainer>
     </Container>
   )
