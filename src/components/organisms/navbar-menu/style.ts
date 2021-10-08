@@ -6,7 +6,6 @@ export const NavBarMenuContainer = styled.header`
   flex-direction: row;
   width: 100%;
   padding: 0px 10px;
-  background-color: ${COLORS.primaryWhite};
 
   justify-content: space-between;
 

@@ -1,55 +1,34 @@
-import React from 'react';
-import {Main,Icons,ContainerRight,ContainerLeft}from './styled'
+import React from 'react'
+import Contact from 'src/components/molecules/footer-contact'
+import { Container } from './styled'
 
-import Contact from 'src/components/molecules/footer-contact';
-import Phone from 'assets/icons/phone.svg'
-import Gps from 'assets/icons/location.svg'
-import Email from 'assets/icons/email.svg'
-import Facebook from 'assets/icons/facebook.svg'
-import Linkedin from 'assets/icons/linkedin.svg'
-import Instagram from 'assets/icons/instagram.svg'
 import Map from '../../atoms/Map'
-
 
 export const Footer = () => {
   return (
-    <Main>
-      <ContainerLeft>
-        <p>Price Item ONe </p>
-        <p>Price Item ONe </p>
-        <p>Price Item ONe </p>
-        <p>Price Item ONe </p>
-        <p>Price Item ONe </p>
-        <p>Price Item ONe </p>
-      </ContainerLeft>
+    <>
+      <Container>
+        <div>
+          <Contact
+            title="Endereço"
+            descripton="Av. Dom Pedro II, 311-355 "
+            descripton2="Santa Luzia, Arcoverde - PE"
+          />
 
-      <div>
-        <Map/>
-        
-      </div>
-             
-      <div>
-        <Contact
-          title="Arcoverde-PE" 
-          img={Gps} />
+          <Contact title="Ligue " descripton="(87)991054786" />
+          <Contact title="Email " descripton2="sertaodigital.org" />
 
-        <Contact
-          title="(87)991054786"
-          img={Phone} />
+          <Contact
+            title="Horário"
+            descripton="Seg - Sex: 08:00 ás 18:00"
+            descripton2="Sab - Dom:Fechado"
+          />
+        </div>
 
-        <Contact
-          title=" sertaodigital.org"
-          img={Email}
-        />
-
-        <ContainerRight >
-          <Icons src={Facebook} />
-          <Icons src={Instagram} />
-          <Icons src={Linkedin} />
-
-        </ContainerRight>
-      </div>
-    </Main>
-  );
+        <div>
+          <Map />
+        </div>
+      </Container>
+    </>
+  )
 }
-
