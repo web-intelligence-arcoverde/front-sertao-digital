@@ -1,34 +1,28 @@
-import React from 'react'
-import Contact from 'src/components/molecules/footer-contact'
-import { Container } from './styled'
+import Contact from 'src/components/molecules/contact-component'
 
-import Map from '../../atoms/Map'
+import { Container } from 'src/components/atoms/Container'
+
+import Map from 'components/atoms/Map'
+
+import ContactInformation from 'components/molecules/footer-contact-information'
+import SocialNetworks from 'components/molecules/footer-social-networks/'
 
 export const Footer = () => {
   return (
-    <>
-      <Container>
-        <div>
-          <Contact
-            title="Endereço"
-            descripton="Av. Dom Pedro II, 311-355 "
-            descripton2="Santa Luzia, Arcoverde - PE"
-          />
-
-          <Contact title="Ligue " descripton="(87)991054786" />
-          <Contact title="Email " descripton2="sertaodigital.org" />
-
-          <Contact
-            title="Horário"
-            descripton="Seg - Sex: 08:00 ás 18:00"
-            descripton2="Sab - Dom:Fechado"
-          />
-        </div>
-
-        <div>
-          <Map />
-        </div>
+    <Container
+      direction="row"
+      color="primaryBlue"
+      height={45}
+      align="center"
+      justify="space-between"
+      padding={50}
+    >
+      <Container direction="row">
+        <ContactInformation />
+        <SocialNetworks />
       </Container>
-    </>
+
+      <Map />
+    </Container>
   )
 }
