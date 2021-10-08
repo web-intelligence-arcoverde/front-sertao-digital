@@ -13,3 +13,7 @@
  https://www.loginradius.com/blog/async/react-app-deployment/
  https://www.youtube.com/watch?v=tSuyz8RQ6BI
  
+ # Git
+ 
+  https://stackoverflow.com/questions/7929369/how-to-rebase-local-branch-onto-remote-master
+ 
