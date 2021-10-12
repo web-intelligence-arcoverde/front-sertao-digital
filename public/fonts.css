@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Futura-Light';
+  src: local('Futura'),
+    url(../src/assets/fonts/Futura/Futura\ Light\ font.ttf) format('truetype');
+}

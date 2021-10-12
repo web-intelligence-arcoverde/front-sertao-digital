@@ -7,5 +7,12 @@ export const ItemMenuLi = styled.li`
 `
 
 export const Link = styled.a`
-  color: ${COLORS.primaryWhite};
+  color: ${COLORS.primaryGray};
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+
+  &:hover {
+    color: opacity(0.7);
+  }
 `

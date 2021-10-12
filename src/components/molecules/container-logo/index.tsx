@@ -1,4 +1,4 @@
-import { ReactComponent as IconLogoCacto } from 'assets/icons/sertao-digital-cacto-logo.svg'
+import { ReactComponent as IconLogoCacto } from 'assets/icons/sertao-digital-cacto.svg'
 import { Container } from './style'
 
 export const LogoContainer = () => {

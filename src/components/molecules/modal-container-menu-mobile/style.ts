@@ -5,7 +5,7 @@ export const Container = styled.div`
   position: absolute;
   width: 100%;
   top: 80px;
-  background-color: ${COLORS.primaryDarkGray};
+  background-color: ${COLORS.primaryWhite};
   z-index: 1000;
   transition: 0.6s;
 `
@@ -13,7 +13,7 @@ export const Container = styled.div`
 export const MenuContainer = styled.ul``
 
 export const ItemMenu = styled.li`
-  color: ${COLORS.primaryWhite};
+  color: ${COLORS.primaryBrown};
   padding: 1rem 0;
   margin: 0 1rem;
 `
