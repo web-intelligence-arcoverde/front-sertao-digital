@@ -58,10 +58,10 @@ export const Container = styled.div`
   }
   p {
       margin:25px;
-      font-size: 20px;
+      font-size: 10px;
 
       @media (max-width:710px) {
-        font-size: 10px;
+        font-size: 8px;
       }
   }
 
@@ -77,7 +77,7 @@ export const Container = styled.div`
   @media (max-width:710px) {
       width: 100%;
       margin:5px;
-      height: 400px;
+      
       
      
   }

@@ -15,7 +15,8 @@ h1 {
     margin: 30px;
 }
 p {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: center;
 }
 `;
 
