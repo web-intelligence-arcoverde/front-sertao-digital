@@ -1,6 +1,6 @@
 import Contact from 'src/components/molecules/contact-component'
 
-import { Container } from 'src/components/atoms/Container'
+import { StyledContainer } from 'src/components/atoms/Container'
 
 import Map from 'components/atoms/Map'
 
@@ -9,7 +9,7 @@ import SocialNetworks from 'components/molecules/footer-social-networks/'
 
 export const Footer = () => {
   return (
-    <Container
+    <StyledContainer
       direction="row"
       color="primaryBlue"
       height={45}
@@ -17,12 +17,12 @@ export const Footer = () => {
       justify="space-between"
       padding={50}
     >
-      <Container direction="row">
+      <StyledContainer direction="row">
         <ContactInformation />
         <SocialNetworks />
-      </Container>
+      </StyledContainer>
 
       <Map />
-    </Container>
+    </StyledContainer>
   )
 }
