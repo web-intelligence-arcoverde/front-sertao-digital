@@ -8,6 +8,7 @@ interface ContainerProps {
   align?: string
   width?: number
   height?: number
+  padding?: number
 }
 
 export const Container = styled.div<ContainerProps>`
@@ -19,6 +20,7 @@ export const Container = styled.div<ContainerProps>`
   align-items: ${({ align }) => align || 'flex-start'};
   width: ${({ width }) => width || '100'}%;
   height: ${({ height }) => height || '100'}%;
+  padding: ${({ padding }) => padding || '0'}px;
 `
 
 export const StyledContainer = styled.div<ContainerProps>`
