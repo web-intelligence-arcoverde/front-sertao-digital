@@ -20,7 +20,6 @@ export const Footer = () => {
     <MainContainer
       direction="row"
       color="primaryBlue"
-      height={45}
       align="center"
       justify="space-between"
       padding={50}
