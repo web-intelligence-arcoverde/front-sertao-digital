@@ -4,7 +4,7 @@ import { COLORS } from 'src/constants';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
  background: #222222;
   color:${COLORS.primaryWhite} ;

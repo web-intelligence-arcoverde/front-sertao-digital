@@ -7,7 +7,7 @@ import { Container } from 'src/components/atoms/Container'
 
 const Index = () => {
   return (
-    <Container style={{ color: 'white', fontFamily: 'Roboto' }}>
+    <Container style={{ color: 'white' }}>
       <h3 style={{ marginBottom: '10px' }}>Redes Sociais</h3>
       <Container direction="row">
         <FacebookIcon />

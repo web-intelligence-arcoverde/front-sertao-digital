@@ -6,4 +6,6 @@ export const Container = styled.div`
   flex-direction: row;
 
   background: ${COLORS.primaryBlue};
+
+ 
 `

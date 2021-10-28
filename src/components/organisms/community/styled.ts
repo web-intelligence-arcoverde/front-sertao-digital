@@ -6,6 +6,8 @@ width: 95%;
   justify-content: center;
   flex-wrap: wrap;
   align-self: center;
+  
+  
 
   @media (min-width:701px) and (max-width:900px) {
     width: 100%;
