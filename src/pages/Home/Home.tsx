@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Startup from 'src/components/organisms/startup/'
 import OurStartp from 'src/components/organisms/our-startup'
 import Community from 'src/components/organisms/community'
-import {Slides} from 'src/components/organisms/Slider'
+import { Slides } from 'src/components/organisms/Slider'
 
 
 
@@ -35,11 +35,10 @@ export const Home = () => {
       <ContainerSize>
         <NavBarMenu />
       </ContainerSize>
-      
-      <Slides/>
-      <Startup/>
-      <OurStartp/>
-      <Community/>
+      <Slides />
+      <Startup />
+      <OurStartp />
+      <Community />
       <Footer />
     </Container>
   )

@@ -1,8 +1,19 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  max-width: 100%;
+  width: 100%;
   height: 83vh;
+  
+  img {
+    
+  max-width: 100vw;
+  
+  }
+
+@media (max-width:768px) {
+  height: auto;
+  background-size: contain;
+}
 `;
 export const ArrowLeft =styled.div`
 
@@ -24,6 +35,10 @@ export const ArrowLeft =styled.div`
   left: 10px;
   transform: scale(-1);
 
+  @media (max-width:748px){
+    top: calc(30% - 20px);
+  }
+
 `
 export const ArrowRight =styled.div`
 
@@ -44,4 +59,7 @@ export const ArrowRight =styled.div`
   z-index: 2;
   right: 10px;
   
+  @media (max-width:748px){
+    top: calc(30% - 20px);
+  }
 `
