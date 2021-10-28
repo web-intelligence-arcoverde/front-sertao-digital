@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-width: 75%;
+width: 95%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
