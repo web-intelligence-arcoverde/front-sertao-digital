@@ -1,17 +1,14 @@
+import { Container, Button, Img } from './styled'
 
-import {Container,Button,Img} from './styled'
-
-const CardCommunity = ({img,button,title,description}:any) => {
+const CardCommunity = ({ img, button, title, description }: any) => {
   return (
-
-      <Container>
-          <Img src={img} />
-            <Button>{button}</Button>
-            <h1>{title}</h1>
-            <p>{description}</p>
-            
-      </Container>
-  );
+    <Container>
+      <Img src={img} />
+      <Button>{button}</Button>
+      <h1>{title}</h1>
+      <p>{description}</p>
+    </Container>
+  )
 }
 
-export default CardCommunity;
+export default CardCommunity

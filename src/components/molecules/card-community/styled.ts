@@ -9,7 +9,7 @@ export const Container = styled.div`
   text-align: center;
   align-items: center;
   color: #222;
-  padding: 60px 0;
+  
 
   h1 {
     margin: 30px;
