@@ -7,8 +7,11 @@ export const Container = styled.div`
   max-width: 24ch;
   font-family: 'Roboto', sans-serif;
   color: white;
+  margin-left: 30%;
+  @media (max-width:768px){
+    margin-left:5%;
 
-  margin-right: 50px;
+  }
 
   h2 {
     font-size: 20px;

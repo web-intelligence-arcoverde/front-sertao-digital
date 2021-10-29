@@ -1,10 +1,13 @@
 import { Container } from 'src/components/atoms/Container'
 import Contact from 'src/components/molecules/contact-component'
+
 import  './style.css'
+
 
 const Index = () => {
   return (
     <Container direction="column" justify = "center" align ="start"  >
+      
       <Contact 
         title="Endereço"
         descripton="Av. Dom Pedro II, 311-355, Santa Luzia, Arcoverde - Pernambuco "

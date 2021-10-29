@@ -6,6 +6,7 @@ export const Container = styled.div`
   background: #222;
     color: white;
     text-align: left;
+   
     
     @media (max-width:768px) {
 
@@ -85,6 +86,3 @@ p {
 
 
 `
-
-
-

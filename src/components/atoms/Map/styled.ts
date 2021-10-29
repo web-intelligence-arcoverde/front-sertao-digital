@@ -10,16 +10,16 @@ export const Container = styled.div`
     height: 90%;
     border: none;
   }
-  @media (max-width:764px) {
+  @media (max-width:768px) {
     display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-items: center;
-  height: 600px;
+  
     iframe {
-      width: 90vw;
-      height: 90%;
+      width: 80vw;
+      height: 70%;
       
 
     }

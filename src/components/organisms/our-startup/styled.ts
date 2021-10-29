@@ -8,6 +8,7 @@ export const Container = styled.div`
   text-align: center;
  background: #222222;
   color:${COLORS.primaryWhite} ;
+  padding-bottom:60px;
 
 
 h1 {
