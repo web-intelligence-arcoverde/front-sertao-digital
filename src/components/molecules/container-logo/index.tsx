@@ -4,7 +4,7 @@ import { Container } from './style'
 export const LogoContainer = () => {
   return (
     <Container>
-      <IconLogoCacto width={200} height={80} />
+      <IconLogoCacto width="100%" height="auto" />
     </Container>
   )
 }

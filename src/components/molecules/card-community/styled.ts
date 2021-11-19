@@ -2,14 +2,13 @@ import styled from 'styled-components';
 import { COLORS } from 'src/constants';
 
 export const Container = styled.div`
-  width: 25%;
+  width: 30%;
   display: flex;
   flex-direction:column;
   margin: 40px 20px;
   text-align: center;
   align-items: center;
   color: #222;
- 
   
 
   h1 {
@@ -58,5 +57,5 @@ width: 100%;
 export const Img =styled.img `
 
 width: 100%;
-height: 300px;
+height: 250px;
 `
